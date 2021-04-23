@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>cocozam - 파자마 사이트 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Gamja Flower', cursive;
+        }
+    .column{
+            column-count: 2;
+            column-gap: 2px;
+            text-align: justify;
+            margin-left: 150px;
+            margin-top: 5px;
+        }
+        figure{
+            margin: 0;
+            display: inline-block;
+            vertical-align: auto;
+        }
+        .imgsell{
+            width:270px;
+            height: 300px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 7fr;
+        }
+        .nav{
+            border-radius: 12px;
+            border: solid 1px;
+            height: 60%;
+            border-color:rgb(161, 156, 156);
+            text-align: center;
+        }
+        .sky{
+            margin-top:4px;
+            width: 100%;
+            height: 150px;
+        }
+        .h1{
+            font-size: 50px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .title{
+            float: right;
+            font-size: 18px;
+            border-top: 1px solid rgb(161, 156, 156);
+            border-bottom: 1px solid rgb(161, 156, 156);
+            padding: 5px;
+            width: 100%;
+        }
+        .imgmoon{
+            width: 70px;
+            
+        }
+        .click:hover{
+            text-decoration: underline;
+        }
+        a:link{
+            text-decoration: none;
+            color:black;
+        }
+        a:visited{
+            text-decoration: none;
+            color:black;
+        }
+        .position{
+            float: right;
+            font-size: 18px;
+            margin-right: 40px;
+        }
+        .select{
+            font-size: 20px;
+        }
+        .list:hover{
+            color:tomato;
+        }
+        .navtitle{
+            font-size: 20px;
+            border-bottom: 1px solid rgb(161, 156, 156);
+        }
+        .main:hover{
+            color: tomato;
+        }
+        .font{
+            color:rgb(180, 179, 179);
+        }
+        .price{
+            color:tomato;
+        }
+        .impor{
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 0;
+        }
+        figcaption{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <header>
+                <h1 class="h1"><a href="./../hw06/hw06.html"><img class="imgmoon" src="./img/moon.jpg">COCOZAM</a></h1>
+        </header>
+        <section>
+            <article>
+                <div class="title">
+                    <div class="position">
+                       <span><a class="main" href="./../hw06/hw06.html">메인 페이지 돌아가기</a></span>
+                    </div>
+                </div>
+                <img class="sky" src="./img/sky.jpg">
+                <div class="grid">
+                    <nav class="nav">
+                        <span class ="navtitle">SELECT ZONE</span>
+                        <br><br>
+                        <span class ="select">
+                            <a href="./hw07.html" class="list">&nbsp;파자마&nbsp;</a>
+                        </span>
+                        <br><br>
+                        <span class ="select" >
+                            <a href="./../hw07/socks.html" class="list">&nbsp;수면 양말&nbsp;</a>
+                        </span>
+                        <br><br>
+                        <span class ="select">
+                            <a href="./../hw07/hat.html" class="list" >&nbsp;수면 모자&nbsp;</a>
+                        </span>
+                        <br><br>
+                        <span class ="select">
+                            <a href="./../hw07/eye.html" class="list" >&nbsp;수면 안대&nbsp;</a>
+                        </span>
+                    </nav>
+                    <div class="column">
+                        <figure>
+                            <img class="imgsell" src="./img/mask1.jpg">
+                            <figcaption><p class="impor">잠자는 숲속의 안대</p><p class="price">9000원</p> <p class="font">*핑크색이고 안대 위의<br>
+                                sleeping beauty로 꾸며져 있다~</p> </figcaption>
+                        </figure>
+                        <figure>
+                            <img class="imgsell" src="./img/mask4.jpg">
+                            <figcaption><p class="impor">황금 뽀짝 안대</p><p class="price">10000원</p> <p class="font">*실크로 만든 안대여서<br>
+                                불면증을 앓고 있는 분이라면 추천~</p> </figcaption>
+                        </figure>
+                        <figure>
+                            <img class="imgsell" src="./img/catmask.jpg">
+                            <figcaption><p class="impor">윈터 동물 안대</p><p class="price">3500원</p> <p class="font">*털실로 짠 귀여운 동물모양<br>
+                                종류가 다양해 모으는 재미가 있다~</p> </figcaption>
+                        </figure>
+                        <figure>
+                            <img class="imgsell" src="./img/frogmask.jpg">
+                            <figcaption><p class="impor">억울한 개구리 안대</p><p class="price">9500원</p> <p class="font">*억울한 개구리 모습을 하고 있어<br>
+                                억울할 때 쓰고 자면 좋다~</p> </figcaption>
+                        </figure>
+                    </div>
+                </body>

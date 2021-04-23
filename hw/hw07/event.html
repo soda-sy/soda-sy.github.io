@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>cocozam - 파자마 사이트 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Gamja Flower', cursive;
+        }
+        h1{
+            border-bottom: 1px solid rgb(161, 156, 156);
+        }
+        .danger{
+            color: tomato;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .text{
+            color:white;
+            font-weight: bold;
+        }
+        .text:hover{
+            color:rgb(238, 118, 96);
+            font-weight: bold;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+        ol{
+            border-bottom: 1px solid rgb(161, 156, 156);
+        }
+        div{
+            margin-left: 30px;
+        }
+    </style>
+    <body>
+        <div>
+            <header>
+                <h1>응모하기</h1>
+                <span class="danger">*주의사항:</span> <span class="text">허위 사실을 작성할 시 벌금 100만원</span>
+                <h2>응모 당청 상품</h2>
+                <ol>
+                    <li>아이폰11 (1명)</li>
+                    <li>테블릿 pc (1명)</li>
+                    <li>프라닥 치킨 (4명)</li>
+                    <li>파자마 10000원 할인권 (10명)</li>
+                    <li>수면양말 증정 (12명></li>
+                </ol>
+            </header>
+            <article>
+                <form>
+                    <P>이름: <input type="text" name="name"></P>
+                    <p>나이: <input type="text" name="age"></p>
+                    <p>성별: <input type="radio" name="sex" value="man" checked>남자 <input name="sex" value="woman" type="radio">여자</p>
+                    <h3>사이트 구매 상품 개수</h3>
+                    <input type="radio" name="number" checked checked>없다
+                    <input type="radio" name="number">1번~2번
+                    <input type="radio" name="number">3번~5번
+                    <input type="radio" name="number">6번이상<br><br>
+                    <input type="submit" value="응모하기">
+                    <input type="reset" value="다시 작성">
+                </form>
+            </article>
+        </div>
+    </body>
